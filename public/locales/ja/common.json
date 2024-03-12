@@ -1,5 +1,15 @@
 {
-  "header": {
-    "store": "ストア"
-  }
+  "navigation": {
+    "store": "ストア",
+    "mac": "Mac",
+    "iPad": "iPad",
+    "iPhone": "iPhone",
+    "watch": "Watch",
+    "airPods": "AirPods",
+    "tv&home": "TV & Home",
+    "entertainment": "エンターテインメント",
+    "accessory": "アクセサリ",
+    "support": "サポート"
+  },
+  "navigationMenu": {}
 }
