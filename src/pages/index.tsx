@@ -16,43 +16,43 @@ export default function Home() {
         menuList={[
           {
             title: t("navigation.store"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.mac"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.iPad"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.iPhone"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.watch"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.airPods"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.tv&home"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.entertainment"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.accessory"),
-            to: "hello",
+            to: "",
           },
           {
             title: t("navigation.support"),
-            to: "hello",
+            to: "",
           },
         ]}
       />

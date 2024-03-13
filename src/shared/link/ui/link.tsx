@@ -10,10 +10,8 @@ export const Link = ({ title, to, ...rest }: Props) => {
   };
 
   return (
-    <>
-      <button onClick={onClick} {...rest}>
-        {title}
-      </button>
-    </>
+    <button onClick={onClick} {...rest}>
+      {title}
+    </button>
   );
 };

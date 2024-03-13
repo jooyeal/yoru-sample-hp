@@ -10,9 +10,5 @@ type Props = {
 export const MenuButton = ({ title, to }: Props) => {
   const { locale } = useRouter();
 
-  return (
-    <>
-      <Link className="text-xs" title={title} to={`${to}/${locale}`} />
-    </>
-  );
+  return <Link className="text-xs" title={title} to={`${to}/${locale}`} />;
 };

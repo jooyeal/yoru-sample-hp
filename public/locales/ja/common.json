@@ -11,5 +11,39 @@
     "accessory": "アクセサリ",
     "support": "サポート"
   },
-  "navigationMenu": {}
+  "navigationMenu": {
+    "shop": "Shop",
+    "shopTheLatest": "Shop The Latest",
+    "mac": "mac",
+    "iPad": "iPad",
+    "iPhone": "iPhone",
+    "appleWatch": "Apple Watch",
+    "appleVisionPro": "Apple Vision Pro",
+    "accessories": "Accessories",
+    "quickLinks": "Quick Links",
+    "findAStore": "Find a Store",
+    "orderStatus": "Order Status",
+    "appleTradeIn": "Apple Trade In",
+    "financing": "Financing",
+    "shopSpecialStores": "Shop Special Stores",
+    "certifiedRefurbished": "Certified Refurbished",
+    "education": "Education",
+    "business": "Business",
+    "veteransAndMilitary": "Veterans and Military",
+    "government": "Government",
+    "exploreMac": "Explore Mac",
+    "exploreAllMac": "Explore All Mac",
+    "macBookAir": "MacBook Air",
+    "macBookPro": "MacBook Pro",
+    "iMac": "iMac",
+    "macMini": "Mac Mini",
+    "macStudio": "Mac Studio",
+    "macPro": "Mac Pro",
+    "shopMac": "Shop Mac",
+    "macAccessories": "Mac Accessories"
+  },
+  "lang": {
+    "ja": "日本語",
+    "en": "英語"
+  }
 }
