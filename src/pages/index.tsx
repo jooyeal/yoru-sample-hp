@@ -5,6 +5,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { Navigation } from "@/widgets/navigation";
 import Image from "next/image";
 import { Layout } from "@/shared/layout";
+import { Banner3D } from "@/widgets/banner3D";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -59,10 +60,38 @@ export default function Home() {
       <Layout>
         <div className="flex flex-col gap-6">
           <section>
-            <Image src="/assets/banner.jpg" alt="" width={1920} height={624} />
+            <Image
+              src="/assets/banner1.jpeg"
+              alt=""
+              width={1920}
+              height={624}
+            />
           </section>
           <section>
-            <div className="h-96">hello</div>
+            <div className="h-96">
+              <Banner3D />
+            </div>
+          </section>
+          <section>
+            <video autoPlay loop muted>
+              <source src="/assets/video.mp4" type="video/mp4" />
+            </video>
+          </section>
+          <section>
+            <div className="grid grid-cols-2 gap-4 w-screen">
+              <Image
+                src="/assets/image1.jpeg"
+                width={960}
+                height={960}
+                alt=""
+              />
+              <Image
+                src="/assets/image1.jpeg"
+                width={960}
+                height={960}
+                alt=""
+              />
+            </div>
           </section>
         </div>
       </Layout>

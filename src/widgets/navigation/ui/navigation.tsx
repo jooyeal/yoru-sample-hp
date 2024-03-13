@@ -25,7 +25,7 @@ export const Navigation = ({ menuList }: TNavigationProps) => {
               { title: t("navigationMenu.iPhone"), to: "" },
               { title: t("navigationMenu.appleWatch"), to: "" },
               { title: t("navigationMenu.appleVisionPro"), to: "" },
-              { title: t("navigationMenu.Accessories"), to: "" },
+              { title: t("navigationMenu.accessories"), to: "" },
             ],
           },
           {
@@ -82,7 +82,7 @@ export const Navigation = ({ menuList }: TNavigationProps) => {
       <div
         className={`fixed top-0 h-11 w-screen 
         ${open ? "h-screen" : ""} 
-        transition-all`}
+        transition-all z-50`}
       >
         <div
           className={`py-2 flex justify-center items-center gap-8 ${
